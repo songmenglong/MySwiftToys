@@ -9,18 +9,19 @@ import UIKit
 
 class FunctionListVC: UIViewController {
 
-    private let cellID = "FunctionListVC"
+    private let cellID = "FunctionListCell"
         
     private lazy var tableView: UITableView = {
         let tableView = UITableView(frame: CGRect.zero, style: UITableView.Style.plain)
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: self.cellID)
+        tableView.tableFooterView = UIView(frame: CGRect.zero)
         return tableView
     }()
     
-    
-    
+    private var dataList = ["WebView", "ReactNative"]
+            
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -50,19 +51,29 @@ extension FunctionListVC: UITableViewDelegate, UITableViewDataSource {
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return self.dataList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: self.cellID, for: indexPath)
-        cell.textLabel?.text = "疯狂星期四？"
+        cell.textLabel?.text = self.dataList[indexPath.row]
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let webViewTestVC = WebViewTestVC()
-        self.navigationController?.pushViewController(webViewTestVC, animated: true)                
+        switch indexPath.row {
+        case 0: // webview
+            let webViewTestVC = WebViewTestVC()
+            self.navigationController?.pushViewController(webViewTestVC, animated: true)
+            break
+        case 1:
+            let reactNativeVC = ReactNativeVC()
+            self.navigationController?.pushViewController(reactNativeVC, animated: true)
+            break
+        default:
+            break
+        }
     }
     
 }

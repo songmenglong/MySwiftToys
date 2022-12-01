@@ -29,16 +29,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let window = window else {
             return
         }
-        
-       
-        
-        // 需要根据判断条件进行选择控制器
-        //window.backgroundColor = UIColor.white
-        //window.rootViewController = MainTabBarVC()
-        
+                               
         window.rootViewController = UINavigationController(rootViewController: FunctionListVC())
-
-        
     }
 
 
