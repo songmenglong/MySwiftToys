@@ -12,7 +12,9 @@ class ReactNativeVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.title = "ReactNative"
+        self.view.backgroundColor = UIColor.white
+        
     }
     
 

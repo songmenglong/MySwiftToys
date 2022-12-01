@@ -20,7 +20,13 @@ class FunctionListVC: UIViewController {
         return tableView
     }()
     
-    private var dataList = ["WebView", "ReactNative"]
+    private var dataList = [
+        "WebView",
+        "ReactNative",
+        "SvgItem",
+        "DropText",
+        "NewText",
+    ]
             
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,11 +71,27 @@ extension FunctionListVC: UITableViewDelegate, UITableViewDataSource {
         switch indexPath.row {
         case 0: // webview
             let webViewTestVC = WebViewTestVC()
+            webViewTestVC.htmlFile = "JStoOC"
             self.navigationController?.pushViewController(webViewTestVC, animated: true)
             break
         case 1:
             let reactNativeVC = ReactNativeVC()
             self.navigationController?.pushViewController(reactNativeVC, animated: true)
+            break
+        case 2: // SvgItem
+            let webViewTestVC = WebViewTestVC()
+            webViewTestVC.htmlFile = "SvgItem"
+            self.navigationController?.pushViewController(webViewTestVC, animated: true)
+            break
+        case 3:
+            let webViewTestVC = WebViewTestVC()
+            webViewTestVC.htmlFile = "DropText"
+            self.navigationController?.pushViewController(webViewTestVC, animated: true)
+            break
+        case 4:
+            let webViewTestVC = WebViewTestVC()
+            webViewTestVC.htmlFile = "NewText"
+            self.navigationController?.pushViewController(webViewTestVC, animated: true)
             break
         default:
             break

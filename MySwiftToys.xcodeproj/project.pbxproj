@@ -18,6 +18,11 @@
 		A2706B352935D48C00D8007B /* MySwiftToysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2706B342935D48C00D8007B /* MySwiftToysUITests.swift */; };
 		A2706B372935D48C00D8007B /* MySwiftToysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2706B362935D48C00D8007B /* MySwiftToysUITestsLaunchTests.swift */; };
 		A2AF878B293851C8008A34B6 /* ReactNativeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AF878A293851C8008A34B6 /* ReactNativeVC.swift */; };
+		A2AF87982938594A008A34B6 /* JStoOC.html in Resources */ = {isa = PBXBuildFile; fileRef = A2AF879229385949008A34B6 /* JStoOC.html */; };
+		A2AF879A29387561008A34B6 /* SvgItem.html in Resources */ = {isa = PBXBuildFile; fileRef = A2AF879929387561008A34B6 /* SvgItem.html */; };
+		A2AF879C29387EB6008A34B6 /* DropText.html in Resources */ = {isa = PBXBuildFile; fileRef = A2AF879B29387EB6008A34B6 /* DropText.html */; };
+		A2AF879E29388051008A34B6 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2AF879D29388051008A34B6 /* test.jpg */; };
+		A2AF87A029388437008A34B6 /* NewText.html in Resources */ = {isa = PBXBuildFile; fileRef = A2AF879F29388437008A34B6 /* NewText.html */; };
 		A2BEF7E0293843B7007FEAB6 /* WebViewTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF7DF293843B7007FEAB6 /* WebViewTestVC.swift */; };
 		A2BEF7E2293846A3007FEAB6 /* FunctionListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEF7E1293846A3007FEAB6 /* FunctionListVC.swift */; };
 /* End PBXBuildFile section */
@@ -57,6 +62,11 @@
 		A2706B342935D48C00D8007B /* MySwiftToysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftToysUITests.swift; sourceTree = "<group>"; };
 		A2706B362935D48C00D8007B /* MySwiftToysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySwiftToysUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A2AF878A293851C8008A34B6 /* ReactNativeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeVC.swift; sourceTree = "<group>"; };
+		A2AF879229385949008A34B6 /* JStoOC.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = JStoOC.html; sourceTree = "<group>"; };
+		A2AF879929387561008A34B6 /* SvgItem.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = SvgItem.html; sourceTree = "<group>"; };
+		A2AF879B29387EB6008A34B6 /* DropText.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = DropText.html; sourceTree = "<group>"; };
+		A2AF879D29388051008A34B6 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		A2AF879F29388437008A34B6 /* NewText.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = NewText.html; sourceTree = "<group>"; };
 		A2BEF7DF293843B7007FEAB6 /* WebViewTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTestVC.swift; sourceTree = "<group>"; };
 		A2BEF7E1293846A3007FEAB6 /* FunctionListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionListVC.swift; sourceTree = "<group>"; };
 		C37F51CC689D4A5621120AE7 /* Pods-MySwiftToys-MySwiftToysUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwiftToys-MySwiftToysUITests.release.xcconfig"; path = "Target Support Files/Pods-MySwiftToys-MySwiftToysUITests/Pods-MySwiftToys-MySwiftToysUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +142,11 @@
 				A2BEF7E1293846A3007FEAB6 /* FunctionListVC.swift */,
 				A2BEF7DF293843B7007FEAB6 /* WebViewTestVC.swift */,
 				A2AF878A293851C8008A34B6 /* ReactNativeVC.swift */,
+				A2AF879D29388051008A34B6 /* test.jpg */,
+				A2AF879229385949008A34B6 /* JStoOC.html */,
+				A2AF879929387561008A34B6 /* SvgItem.html */,
+				A2AF879B29387EB6008A34B6 /* DropText.html */,
+				A2AF879F29388437008A34B6 /* NewText.html */,
 				A2706B192935D48600D8007B /* Main.storyboard */,
 				A2706B1C2935D48B00D8007B /* Assets.xcassets */,
 				A2706B1E2935D48B00D8007B /* LaunchScreen.storyboard */,
@@ -277,8 +292,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2AF87982938594A008A34B6 /* JStoOC.html in Resources */,
+				A2AF879E29388051008A34B6 /* test.jpg in Resources */,
 				A2706B202935D48B00D8007B /* LaunchScreen.storyboard in Resources */,
+				A2AF879C29387EB6008A34B6 /* DropText.html in Resources */,
+				A2AF879A29387561008A34B6 /* SvgItem.html in Resources */,
 				A2706B1D2935D48B00D8007B /* Assets.xcassets in Resources */,
+				A2AF87A029388437008A34B6 /* NewText.html in Resources */,
 				A2706B1B2935D48600D8007B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,7 +574,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7UA78HHHB8;
+				DEVELOPMENT_TEAM = 578JF758Q3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MySwiftToys/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -583,7 +603,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7UA78HHHB8;
+				DEVELOPMENT_TEAM = 578JF758Q3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MySwiftToys/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
